@@ -1,28 +1,23 @@
-public class Filme {
-    String nome;
-    int anoDeLancamento;
-    boolean incluidoNoPlano;
-    private double somaDasAvaliacoes;
-    private int totalDeAvaliacao;
-    int duracaoEmMinutos;
+package br.dev.brunoalves.screenmatch.modelos;
 
-    int getTotalDeAvaliacao(){
-        return totalDeAvaliacao;
+import br.dev.brunoalves.screenmatch.calculos.Classificavel;
+
+public class Filme extends Titulo implements Classificavel {
+    private String diretor;
+
+    public String getDiretor() {
+
+        return diretor;
     }
 
-    void exibeFichaTecnica() {
-        System.out.println("Nome do filme: " + nome);
-        System.out.println("Ano de lançamento " + anoDeLancamento);
+    public void setDiretor(String diretor) {
+
+        this.diretor = diretor;
     }
 
-    void avalia(double nota) {
-        somaDasAvaliacoes += nota;
-        totalDeAvaliacao++;
+    @Override
+    public int getClassificacao() {
+
+        return (int) pegaMedia() / 2;
     }
-
-    double pegaMedia(){
-        return somaDasAvaliacoes / totalDeAvaliacao;
-    }
-
-
 }

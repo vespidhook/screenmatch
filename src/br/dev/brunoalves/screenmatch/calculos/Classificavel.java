@@ -1,5 +1,5 @@
 package br.dev.brunoalves.screenmatch.calculos;
 
-public class Classicavel {
-    
+public interface Classificavel {
+    int getClassificacao();
 }
