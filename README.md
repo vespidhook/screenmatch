@@ -36,29 +36,32 @@ src/
 
 ### 🎯 Conceitos de POO Implementados
 
-| Conceito | Implementação |
-|----------|---------------|
-| **Herança** | `Filme` e `Serie` herdam de `Titulo` |
-| **Interface** | `Classificavel` implementada por `Filme` e `Episodio` |
-| **Polimorfismo** | `CalculadoraDeTempo` aceita qualquer `Titulo` |
-| **Encapsulamento** | Atributos privados com getters/setters |
-| **Abstração** | Classe base `Titulo` com métodos comuns |
+| Conceito           | Implementação                                         |
+| ------------------ | ----------------------------------------------------- |
+| **Herança**        | `Filme` e `Serie` herdam de `Titulo`                  |
+| **Interface**      | `Classificavel` implementada por `Filme` e `Episodio` |
+| **Polimorfismo**   | `CalculadoraDeTempo` aceita qualquer `Titulo`         |
+| **Encapsulamento** | Atributos privados com getters/setters                |
+| **Abstração**      | Classe base `Titulo` com métodos comuns               |
 
 ## 🛠️ Como Executar
 
 ### Pré-requisitos
+
 - Java JDK 8 ou superior
 - IDE de sua preferência (IntelliJ IDEA, Eclipse, VS Code)
 
 ### Passos para Execução
 
 1. **Clone o repositório**
+
    ```bash
    git clone https://github.com/seu-usuario/screenmatch.git
    cd screenmatch
    ```
 
 2. **Compile o projeto**
+
    ```bash
    javac -d bin src/**/*.java src/Principal.java
    ```
@@ -135,8 +138,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Bruno Alves**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Bruno Alves](https://linkedin.com/in/seu-perfil)
+
+- GitHub: [@vespidhook](https://github.com/vespidhook)
+- LinkedIn: [Bruno Alves](https://www.linkedin.com/in/brunoalvesilva/)
 
 ---
 
@@ -144,4 +148,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
   <p>Desenvolvido com ❤️ durante o curso da <a href="https://www.alura.com.br">Alura</a></p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java">
   <img src="https://img.shields.io/badge/OOP-Object--Oriented--Programming-blue?style=for-the-badge" alt="OOP">
-</div> 
+</div>
