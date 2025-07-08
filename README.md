@@ -31,7 +31,7 @@ src/
 │       ├── Classificavel.java   # Interface
 │       ├── CalculadoraDeTempo.java
 │       └── FiltroRecomendacao.java
-└── Principal.java               # Classe principal
+└── br.dev.brunoalves.screenmatch.principal.Principal.java               # Classe principal
 ```
 
 ### 🎯 Conceitos de POO Implementados
@@ -63,12 +63,12 @@ src/
 2. **Compile o projeto**
 
    ```bash
-   javac -d bin src/**/*.java src/Principal.java
+   javac -d bin src/**/*.java src/br.dev.brunoalves.screenmatch.principal.Principal.java
    ```
 
 3. **Execute a aplicação**
    ```bash
-   java -cp bin Principal
+   java -cp bin br.dev.brunoalves.screenmatch.principal.Principal
    ```
 
 ## 📖 Exemplo de Uso
